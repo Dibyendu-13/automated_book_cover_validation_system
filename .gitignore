@@ -1,0 +1,29 @@
+# Environment and secrets
+.env
+*.pem
+*.key
+book-cover-validation-platform.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Generated reports and artifacts
+validation_book_covers/batch_report.json
+validation_book_covers/batch_report.csv
+validation_book_covers/accuracy_metrics.json
+
